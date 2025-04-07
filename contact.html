@@ -1,0 +1,136 @@
+<!--Author: Deadeepya Koganti
+Date: 07-04-2025
+File Name: contact.html-->
+
+<!DOCTYPE html>
+<!-- This website template was created by: Deadeepya Koganti  -->
+<html lang="en">
+<head>
+    <title>Contact Us - Pristine VacuMatic Solutions</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="css/contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    
+</head>
+<body>
+
+    <div id="container">
+
+        <!-- Mobile Nav --> 
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="team.html">Our Team</a>
+                <a href="specials.html">Specials</a>
+                <a href="training.html">Training</a>
+                <a href="media.html">Media</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()"> 
+                <div>&#9776;</div>
+            </a>
+        </nav>  
+
+    <!-- Use the header area for the website name of logo -->
+    <header>
+        <a href="index.html"><img src="images/logo.png" alt="Pristine VacuMatic Solutions Logo" height="220" width="297"></a> 
+    </header>
+
+    <!-- Tablet, Desktop Nav -->
+    <nav class="tablet-desktop">
+        <ul>
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="about.html">About Us</a></li> 
+            <li><a href="team.html">Our Team</a></li> 
+            <li><a href="specials.html">Specials</a></li> 
+            <li><a href="training.html">Training</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+           
+        </ul>
+    </nav>
+
+    <!-- Use the main area to add the main content of the webpage -->
+    <main>
+
+        <div id="contact">
+
+            <h2>Ready to get started? Contact us today.</h2>
+            <h4 class="mobile tel-link"><a href="tel:8145559608">(814) 555-9608</a></h4> 
+            <h4 class="tablet-desktop tel-num">(814) 555-9608</h4>
+            <h4>Email us: <a href="mailto:info@pristinevacuumatic.com" class="contact-email-link">info@pristinevacuumatic.com</a></h4> 
+            <h4>Visit us at: 1275 Channel Center Street, Boston, MA 02210</h4> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.8516356206924!2d-71.05401315906872!3d42.34568643612878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a7dc2b67e7b%3A0x36ec93427cd9c5f1!2sChannel%20Center%20St%2C%20Boston%2C%20MA%2002210%2C%20USA!5e0!3m2!1sen!2sca!4v1737392418413!5m2!1sen!2sca" width="600" height="450" allowfullscreen class="map"></iframe>
+        </div>
+
+        <div id="form"> 
+
+            <h2>We’d Love to Hear From You!</h2>
+            <ol>
+                <li>Please fill out the form below with your inquiry.</li>
+                <li>All fields marked with * are required.</li>
+            </ol>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label for="name">Full Name *</label><br>
+                    <input type="text" id="name" name="name" required size="40" placeholder="Your Full Name" autofocus><br><br>
+
+                    <label for="email">Email *</label><br>
+                    <input type="email" id="email" name="email" required size="40" placeholder="you@example.com"><br><br>
+
+                    <label for="date">Preferred Contact Date</label><br>
+                    <input type="date" id="date" name="contact_date"><br><br>
+
+                    <label>How should we contact you?</label><br>
+                    <input type="radio" id="phone" name="contact_method" value="phone">
+                    <label for="phone">Phone</label><br>
+                    <input type="radio" id="email_method" name="contact_method" value="email">
+                    <label for="email_method">Email</label><br><br>
+
+                    <label>Which product are you interested in?</label><br>
+                    <input type="checkbox" id="pro1000" name="product" value="Pro 1000">
+                    <label for="pro1000">VacuMatic Pro 1000</label><br>
+                    <input type="checkbox" id="lite" name="product" value="Whisper Lite">
+                    <label for="lite">Whisper Lite</label><br><br>
+
+                    <label for="inquiry">Type of Inquiry</label><br>
+                    <select id="inquiry" name="inquiry">
+                        <option value="general">General Question</option>
+                        <option value="support">Technical Support</option>
+                        <option value="sales">Sales Inquiry</option>
+                        <option value="training">Training Info</option>
+                    </select><br><br>
+
+                    <label for="comments">Your Message *</label><br>
+                    <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Type your message here..." required></textarea><br><br>
+
+                    <button type="submit">Submit Request</button>
+                    <button type="reset">Reset Form</button>
+                </fieldset>
+            </form>  
+        </div>
+    </main>
+
+    <!-- Use the footer area to add webpage footer content -->
+    <footer>
+        <p>&copy; Copyright 2099. All Rights Reserved.</p>
+        <p><a href="mailto:info@pristinevacuumatic.com">Request information</a></p>
+        <p>Deadeepya Koganti &nbsp; &nbsp; C0959068</p>
+    </footer>
+
+    </div>
+
+    <script src="scripts/script.js"></script>
+
+
+</body>
+</html>
