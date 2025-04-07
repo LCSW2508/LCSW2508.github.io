@@ -1,0 +1,73 @@
+/* 
+Author: Deadeepya Koganti 
+Date: 07-04-2025 
+File Name: contact.css 
+*/
+
+.map {
+  border: 2px solid #000;
+  width: 50%;
+  height: 300px;
+  margin: 0 auto; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-section {
+  text-align: center;
+  margin: 40px auto;
+}
+
+form {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color:white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.star {
+    color: red;
+    margin-right: 4px;
+}
+ 
